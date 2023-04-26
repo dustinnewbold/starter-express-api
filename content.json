@@ -1,11 +1,120 @@
 {
     "/": {
-
+        "modules": {
+            "hero": {
+                "backgroundImage": "/assets/images/hero-bike-shop-bg.png",
+                "title": "Your everything-you-need, full service POS system",
+                "description": "Start taking payments now with the easiest, fastest point-of-sale system on the market.",
+                "cta": {
+                    "label": "Get started",
+                    "link": "https://example.com/get-started"
+                },
+                "videoLink": {
+                    "label": "See an overview",
+                    "link": "https://example.com/video-link"
+                }
+            },
+            "twoColCopyAsset": {
+                "copyColumn": {
+                    "heading": "All your banking and business needs, together",
+                    "description": "Easily see and access all things related to your business so you can focus on the things that really matter",
+                    "list": [
+                        {
+                            "image": "/assets/icons/icon-trending-up.svg",
+                            "title": "Get a snapshot of your banking and business in one place",
+                            "description": "See real-time cash flow, sales updates and more while doing your banking."
+                        },
+                        {
+                            "image": "/assets/icons/icon-layers.svg",
+                            "title": "See personal insights on your business to help you grow",
+                            "description": "Get ahead of the competition with personalized recommendations."
+                        },
+                        {
+                            "image": "/assets/icons/icon-devices.svg",
+                            "title": "Manage your Clover devices with ease",
+                            "description": "See which devices are doing best and which are most effective."
+                        },
+                        {
+                            "image": "/assets/icons/icon-database.svg",
+                            "title": "View key data to make the right decisions for you",
+                            "description": "Use live projections, key customer insights and market trends to build your business."
+                        }
+                    ]
+                },
+                "assetColumn": {
+                    "image": "/assets/images/mobile-prototype.png"
+                }
+            }
+        },
+        "common": {
+            "signIn": "Sign In",
+            "signOut": "Sign Out"
+        }
     },
     "auth": {
-
+        "strings": {
+            "title": "Authenticate",
+            "username": "Username",
+            "password": "Password"
+        },
+        "common": {
+            "signIn": "Sign In",
+            "signOut": "Sign Out"
+        }
     },
     "dashboard": {
-        
+        "navigation": {
+            "summary": "Summary",
+            "insights": "Insights",
+            "sales": "Sales",
+            "trends": "Trends",
+            "devices": "Devices"
+        },
+        "modules": {
+            "details": {
+                "title": ""
+            },
+            "insights": {
+                "title": "Insights"
+            },
+            "cashFlow": {
+                "title": "Cash Flow"
+            },
+            "salesOverview": {
+                "title": "Sales Overview",
+                "strings": {
+                    "newCustomers": "New customers",
+                    "returningCustomers": "Returning customers",
+                    "onlineSales": "Online sales",
+                    "avgTransaction": "Avg value per transaction",
+                    "quarterIncrease": "increase over last quarter"
+                }
+            },
+            "devices": {
+                "title": "Devices",
+                "strings": {
+                    "activeDevices": "Active devices",
+                    "monthlyTransactions": "Transactions this month",
+                    "avgTransactions": "Avg monthly transactions"
+                }
+            },
+            "quarterlyComparison": {
+                "title": "How did this quarter compare to the last?"
+            },
+            "trends": {
+                "title": "Local industry trends",
+                "strings": {
+                    "competitors": "Competitors"
+                }
+            }
+        },
+        "common": {
+            "opened": "Opened",
+            "employees": "employees",
+            "inlineSeperator": "•",
+            "reviews": "reviews",
+            "signIn": "Sign In",
+            "signOut": "Sign Out"
+        }
     }
 }

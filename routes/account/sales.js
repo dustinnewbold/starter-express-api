@@ -2,10 +2,12 @@ const express = require('express');
 const router = express.Router();
 
 router.get('/', (req, res) => {
+    const newCustomers = Math.floor(Math.random() * (80 - 30 + 1) + 30);
+
     res.json({
         customers: {
             new: {
-                number: 36,
+                number: newCustomers,
                 percentile: 43,
             },
             returning: {

@@ -2,9 +2,14 @@ const express = require('express');
 const router = express.Router();
 
 router.get('/', (req, res) => {
+    const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+    const randomMonthIndex = Math.floor(Math.random() * (months.length + 1));
+
+    const month = months[randomMonthIndex] || months[0];
+
     res.json([
         {
-            title: "August is historically their busiest month",
+            title: `${month} is historically their busiest month`,
             description: "Propose a SMB loan to buy extra inventory to accommodate for this",
             link: "https://www.example.com/insight-1",
         },

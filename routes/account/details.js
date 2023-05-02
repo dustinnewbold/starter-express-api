@@ -2,6 +2,8 @@ const express = require('express');
 const router = express.Router();
 
 router.get('/', (req, res) => {
+    const openYear = Math.floor(Math.random() * (2022 - 2000 + 1) + 2000);
+
     res.json({
         name: "Henry's Bike Shop",
         coverImage: "/assets/images/company-bg.png",
@@ -15,7 +17,7 @@ router.get('/', (req, res) => {
         phone: "4167629119",
         email: "henrysbikes@hbs.ca",
 
-        openDate: "May 2022",
+        openDate: `May ${openYear}`,
         numEmployees: 5,
     });
 });
